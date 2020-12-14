@@ -1,0 +1,118 @@
+.head {
+  max-width: 680px;
+  min-width: 360px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social {
+  display: flex;
+}
+
+.likes {
+  margin: 0;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: flex-end;
+  color: #333333;
+  padding: 0 20px;
+  background-image: url(../images/like.svg);
+  background-repeat: no-repeat;
+}
+
+.comments {
+  margin: 0;
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: flex-end;
+  color: #333333;
+  padding-left: 20px;
+  background-image: url(../images/comment.png);
+  background-repeat: no-repeat;
+}
+
+.sendForm {
+  max-width: 720px;
+  min-width: 320px;
+}
+
+.sendCommentBlock {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 100%;
+  text-align: center;
+  background-color: #f2f2f2;
+}
+
+.sendInput {
+  padding-left: 10px;
+  width: 90%;
+  height: 65px;
+  resize: none;
+  border-radius: 5px;
+}
+
+.nameInput {
+  padding-left: 10px;
+
+  margin-bottom: 20px;
+  width: 90%;
+  border-radius: 5px;
+}
+
+.sendButton {
+  margin: 25px auto;
+  background: #fdd639;
+  border-radius: 23px;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  border: none;
+  color: #333333;
+  padding: 12px 45px;
+}
+
+.buttons {
+  display: flex;
+}
+
+.activeList {
+  margin: 0;
+  margin-right: 15px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 16px;
+  color: #333333;
+  cursor: default;
+}
+
+.noActiveList {
+  margin: 0;
+  margin-right: 15px;
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration-line: underline;
+  color: #005da1;
+  cursor: pointer;
+}

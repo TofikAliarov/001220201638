@@ -1,0 +1,139 @@
+.block {
+  max-width: 680px;
+  min-width: 360px;
+  padding: 20px;
+  display: flex;
+}
+
+.avatar {
+  width: 125px;
+  height: 125px;
+  border-radius: 100px;
+  margin-right: 20px;
+  z-index: 2;
+}
+
+.mainTitle {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #333333;
+}
+.secondTitle {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  color: #808080;
+}
+
+.tagline {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+  background: #fffbc8;
+  border: 1px solid #dadada;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 120%;
+  right: 20%;
+  position: relative;
+  padding-left: 20%;
+}
+
+.services {
+  margin-left: auto;
+  margin-right: 30px;
+  width: max-content;
+}
+.services p {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  color: #333333;
+}
+
+.servicesGraf {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-top: 1px solid #dadada;
+  border-bottom: 1px solid #dadada;
+  display: flex;
+}
+
+.skillsBlock {
+  width: 100%;
+  margin-right: 20px;
+}
+
+.skillsBlock p {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 26px;
+  margin: 2px;
+
+  color: #333333;
+}
+
+.skillsPoints {
+  margin-right: 40px;
+  margin-left: 25px;
+}
+
+.skillsPoints p {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 26px;
+  color: #333333;
+  margin: 2px;
+}
+
+.booking {
+  padding-left: 6px;
+  background: #b1e19b;
+  border-radius: 0px 3px 3px 0px;
+  white-space: nowrap;
+}
+
+.tours {
+  padding-left: 6px;
+  background-color: #ace2f8;
+  width: 27%;
+  border-radius: 0px 3px 3px 0px;
+  white-space: nowrap;
+}
+.hotels {
+  padding-left: 6px;
+  background-color: #ace2f8;
+  width: 9%;
+  background-size: 100% 100%;
+  border-radius: 0px 3px 3px 0px;
+}
+
+.conclusion {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 40px;
+}
+
+.conclusionText {
+  margin-top: 10px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333333;
+}

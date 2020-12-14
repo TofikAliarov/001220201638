@@ -1,0 +1,66 @@
+.commentsList {
+  max-width: 680px;
+  min-width: 360px;
+  padding: 20px;
+}
+
+.element {
+  list-style-type: none;
+  margin-top: 20px;
+}
+
+.head {
+  display: flex;
+}
+.name {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  color: #333333;
+  margin: 0;
+  margin-right: 10px;
+}
+
+.date {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  color: #808080;
+  margin: 0;
+}
+
+.bubble {
+  margin-top: 15px;
+  width: 100%;
+  border-radius: 2px;
+  background: #e0ffff;
+  border: 1px solid #c4cbcf;
+  box-shadow: 0px 4px 10px rgba(128, 128, 128, 0.1);
+  display: inline-block;
+  position: relative;
+}
+.bubble::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: #e0ffff;
+  border: 1px solid #e0ffff;
+  position: absolute;
+  top: -5px;
+  left: 40px;
+  transform: skewX(0deg) skewY(50deg);
+}
+.bubbleIn {
+  border-radius: 12px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  background: #e0ffff;
+  position: relative;
+  z-index: 2;
+}
